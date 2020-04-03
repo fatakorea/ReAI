@@ -1,22 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>WHO WE ARE</title>
+<title>ReAI</title>
 <meta charset="utf-8">
+<style>  
+ h1 {font-size:50px;
+     text-align:center;
+     border-bottom:20px solid red;
+     margin:0;
+     background-color:gold;
+     }
+ol {border-right :1px solid gray;
+
+width: 200px;
+margin:0;
+padding:50%;
+text-align: center;
+}
+p { text-align: center;
+    margin:0;
+}
+body{
+    margin:0;
+}
+#grid {
+    display:grid;
+    grid-template-columns: 150px 1fr;
+}
+h2{text-align: center;
+   }   
+   
+</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1><a href="index.html">ReAI</a></h1>
+<h1>ReAI</h1>
+<div id="grid">
 <ol>    
-    <li><a href="WHO WE ARE.html">WHO WE ARE</a><br></li> 
-    <li><a href="WHAT WE DO.html"> WHAT WE DO</a><br></li> 
+    <li><a href="WHO WE ARE.html" >WHO WE ARE</a><br></li> 
+    <li><a href="WHAT WE DO.html" > WHAT WE DO</a><br></li> 
     <li><a href="CONTACT US.html"> CONTACT US</a><br></li>
 </ol>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/leslcQzbwQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<h2>
+<h2>   
 <strong><u>WHO WE ARE</u></strong>
 </h2>
+  </div>
+</div>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/leslcQzbwQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p style="margin-bottom:150px;"><a href="http://www.naver.com" target="_blank" title="네이버">인공지능 플랫폼 개발 회사</a><br>리아이</p>
-<img src="reai.jpg" width="30%">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://reai.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -30,6 +81,7 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+
 </body>
 <footer>
 제작 by 개고수 연석    
